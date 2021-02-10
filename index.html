@@ -15,59 +15,64 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div>
+    <div class="border">
       <header>
-        <span>X</span>
+        <span><i class="fas fa-times"></i></span>
         <span>Playlist</span>
+        <span></span>
       </header>
       <div class="present">
-        <div class="present__imgbox"></div>
+        <div class="present__imgbox"><i class="far fa-image fa-3x"></i></div>
         <div class="present__tags">
-          <span class="present__tags__upper-title">Random</span>
-          <span class="present__tags__lower-title">Love</span>
-          <span class="present__tags__singer">by Divay Kapoor</span>
+          <span>Random</span>
+          <span>Love</span>
+          <span>by Divay Kapoor</span>
         </div>
       </div>
       <div class="nav">
-        <div class="nav__play-btn">
-          <span>&#9655;</span>
-          <span>Play</span>
+        <div class="btn nav__play-btn">
+          <div><i class="fas fa-play"></i></div>
+          <div>Play</div>
         </div>
-        <div class="nav__heart-btn">&#9825;</div>
-        <div class="nav__add-btn">+</div>
+        <div class="btn nav__round-btn">
+          <div><i class="far fa-heart fa-lg"></i></div>
+        </div>
+        <div class="btn nav__round-btn">
+          <div><i class="fas fa-plus"></i></div>
+        </div>
       </div>
       <div class="list">
         <div class="list__item">
-          <div class="list__item__cover"></div>
+          <div class="list__item__cover" id="matargasti"></div>
           <div class="list__item__tags">
-            <span class="list__item__tags__title">Matargasti</span>
-            <span class="list__item__tags__singer">Mohit Chauhan</span>
+            <span>Matargasti</span>
+            <span>Mohit Chauhan</span>
           </div>
         </div>
         <div class="list__item">
-          <div class="list__item__cover"></div>
+          <div class="list__item__cover" id="attitude"></div>
           <div class="list__item__tags">
-            <span class="list__item__tags__title">Attitude</span>
-            <span class="list__item__tags__singer">Lewis OfMan‧Attitude</span>
+            <span>Attitude</span>
+            <span>Lewis OfMan‧Attitude</span>
           </div>
         </div>
         <div class="list__item">
-          <div class="list__item__cover"></div>
+          <div class="list__item__cover" id="try-everthing"></div>
           <div class="list__item__tags">
-            <span class="list__item__tags__title">Try Everthing</span>
-            <span class="list__item__tags__singer">Shakira‧Zootopia</span>
+            <span>Try Everthing</span>
+            <span>Shakira‧Zootopia</span>
           </div>
         </div>
         <div class="list__item">
-          <div class="list__item__cover"></div>
+          <div class="list__item__cover" id="sunflower"></div>
           <div class="list__item__tags">
-            <span class="list__item__tags__title">Sunflower</span>
-            <span class="list__item__tags__singer"
-              >Joseph Vincent‧Sunflower</span
-            >
+            <span>Sunflower</span>
+            <span>Joseph Vincent‧Sunflower</span>
           </div>
         </div>
       </div>
     </div>
+    <div class="warning warning-inc">Increase the size of the screen.</div>
+    <div class="warning warning-red">Reduce the size of the screen.</div>
   </body>
 </html>
